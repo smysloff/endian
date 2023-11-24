@@ -17,4 +17,7 @@ build:
 run:
 	@./${APP_NAME}
 
-.PHONY: all clean build run
+install:
+	@ln -s ${shell pwd}/endian /usr/local/bin/
+
+.PHONY: all clean build run install

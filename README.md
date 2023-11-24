@@ -19,7 +19,8 @@ The **endian** utility returns the following exit status codes:
 * **1**	- An error occurred while determining the endianness.
 
 ## Compilation
-`make build` - in current directory compiles the utility from sources
+`make build` - compiles the utility from sources
+`[sudo] make install` - creates symbolic link to executable in `/usr/local/bin`
 
 ## Authors
 The **endian** utility was written by Alexander Smyslov <kokoc.smyslov@yandex.ru>.
