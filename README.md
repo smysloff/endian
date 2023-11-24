@@ -7,7 +7,7 @@ Determine and print the endianness of a system
 ## Description
 The **endian** utility is used to determine and print the endianness of the current system. Endianness refers to the order in which bytes are stored in memory.
 
-The **endian** utility prints the endianness of the system in a human-readable format. It outputs "little-endian" or "big-endian" depending on the system's byte order.
+The **endian** utility prints the endianness of the system in a human-readable format. It outputs "Little Endian" or "Big Endian" depending on the system's byte order.
 
 ## Options
 * **-h** - Displays the given man page.

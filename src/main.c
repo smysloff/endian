@@ -20,7 +20,7 @@
     "\t" "\033[1m" APP_NAME "\033[0m" " [OPTION]" "\n\n" \
   "\033[1m" "DESCRIPTION" "\033[0m" "\n" \
     "\t" "The " "\033[1m" APP_NAME "\033[0m" " utility is used to determine and print the endianness of the current system. Endianness refers to the order in which bytes are stored in memory." "\n\n" \
-    "\t" "The " "\033[1m" APP_NAME "\033[0m" " utility prints the endianness of the system in a human-readable format. It outputs \"little-endian\" or \"big-endian\" depending on the system's byte order." "\n\n" \
+    "\t" "The " "\033[1m" APP_NAME "\033[0m" " utility prints the endianness of the system in a human-readable format. It outputs \"" LITTLE_ENDIAN_MSG "\" or \"" BIG_ENDIAN_MSG "\" depending on the system's byte order." "\n\n" \
   "\033[1m" "OPTIONS" "\033[0m" "\n" \
     "\t" "\033[1m" "-h" "\033[0m" "\t" "- Displays the given man page." "\n" \
     "\t" "\033[1m" "-n" "\033[0m" "\t" "- Disables line break printing." "\n\n" \
